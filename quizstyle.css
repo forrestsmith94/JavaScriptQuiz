@@ -1,25 +1,65 @@
-body{
+
+body {
+    background-color: #5cdb95;
+}
+
+.container-fluid {
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #edf5e1;
+    padding: 10px 50px 50px 50px;
+    border: 2px solid #ffff;
+    
+}
+
+.container-fluid h1 {
+    font-family: "sans-serif";
+    background-color: #379683;
+    font-size: 60px;
+    text-align: center;
+    color: #ffffff;
+    padding: 2px 0px;
+    
+}
+
+#score {
+    color: #379683;
+    text-align: center;
+    font-size: 30px;
+}
+
+.container-fluid #question {
+    
+    font-family: "monospace";
+    font-size: 30px;
+    color: #05386B;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: #05386b;
+    width: 250px;
     font-size: 20px;
-    font-family: sans-serif;
-    color: #333;
-}
-.question{
-    font-weight: 600;
-}
-.answers {
-    margin-bottom: 20px;
-}
-#submit{
-    font-family: sans-serif;
-    font-size: 20px;
-    background-color: #297;
     color: #fff;
-    border: 0px;
-    border-radius: 3px;
-    padding: 20px;
-    cursor: pointer;
-    margin-bottom: 20px;
+    border: 1px solid #5cdb95;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
 }
-#submit:hover{
-    background-color: #3a8;
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: #379683;
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+
+#progress {
+    color: #5cdb95;
+    font-size: 10px;
 }
